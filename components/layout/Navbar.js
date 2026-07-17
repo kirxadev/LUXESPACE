@@ -27,7 +27,10 @@ export default function Navbar() {
   const mobileLinksRef = useRef([]);
   const mobileTl = useRef(null);
 
-  const useLightText = pathname !== "/" && !isScrolled;
+  // Only use light (white) text on pages that have a dark hero image behind the navbar
+  const darkHeroPages = ["/about", "/services", "/portfolio", "/contact"];
+  const hasDarkHero = darkHeroPages.includes(pathname);
+  const useLightText = hasDarkHero && !isScrolled;
 
   // Scroll Detection
   useEffect(() => {
