@@ -387,7 +387,7 @@ export default function HomeContent() {
                 </div>
 
                 <p className="text-[15px] text-muted-foreground font-light leading-relaxed flex-grow">
-                  "{testimonial.text}"
+                  &ldquo;{testimonial.text}&rdquo;
                 </p>
                 
               </div>
