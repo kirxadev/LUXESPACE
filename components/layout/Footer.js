@@ -45,7 +45,7 @@ export default function Footer() {
               LUXESPACE
             </span>
             <p className="text-muted-foreground text-[15px] font-sans font-light leading-relaxed max-w-xs">
-              An award-winning luxury interior design studio crafting timeless, minimal, and sophisticated spaces for high-end residential and commercial projects globally.
+              We create bespoke interiors that blend timeless design, refined craftsmanship, and thoughtful functionality, transforming residential and commercial spaces into elegant, enduring environments.
             </p>
           </div>
 
