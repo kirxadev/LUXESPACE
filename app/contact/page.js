@@ -285,8 +285,8 @@ export default function ContactPage() {
                 <h3 className="text-h4 font-serif mb-4 flex items-center gap-2">
                   <Icon icon={MapPin} className="text-primary" /> New York
                 </h3>
-                <p className="text-body text-muted-foreground mb-1">100 11th Avenue, Suite 1500</p>
-                <p className="text-body text-muted-foreground mb-6">New York, NY 10011</p>
+                <p className="text-body text-muted-foreground mb-1">123 Dummy Street, Suite 000</p>
+                <p className="text-body text-muted-foreground mb-6">Placeholder City, NY 00000</p>
                 <div className="text-small text-foreground font-medium uppercase tracking-widest">
                   Mon — Fri: 9am — 6pm
                 </div>
@@ -308,8 +308,8 @@ export default function ContactPage() {
                 <h3 className="text-h4 font-serif mb-4 flex items-center gap-2">
                   <Icon icon={MapPin} className="text-primary" /> Paris
                 </h3>
-                <p className="text-body text-muted-foreground mb-1">25 Rue de la Paix</p>
-                <p className="text-body text-muted-foreground mb-6">75002 Paris, France</p>
+                <p className="text-body text-muted-foreground mb-1">456 Placeholder Ave</p>
+                <p className="text-body text-muted-foreground mb-6">00000 Dummy City, Country</p>
                 <div className="text-small text-foreground font-medium uppercase tracking-widest">
                   Mon — Fri: 10am — 7pm
                 </div>
