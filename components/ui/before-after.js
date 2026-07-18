@@ -84,7 +84,7 @@ export function BeforeAfterSlider({ beforeImage, afterImage, beforeLabel = "Befo
         className="absolute top-0 bottom-0 w-1 bg-white cursor-ew-resize shadow-[0_0_15px_rgba(0,0,0,0.5)]"
         style={{ left: `${sliderPosition}%`, transform: 'translateX(-50%)' }}
       >
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-lg transition-transform group-hover:scale-110">
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[48px] h-[48px] bg-white rounded-full flex items-center justify-center shadow-lg transition-transform group-hover:scale-110">
           <Icon icon={ArrowLeftRight} size="sm" className="text-foreground" />
         </div>
       </div>

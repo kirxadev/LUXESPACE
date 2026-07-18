@@ -262,7 +262,7 @@ export default function ServicesPage() {
                 {/* Connecting Line (Desktop) */}
                 {i < 3 && <div className="hidden lg:block absolute top-6 left-12 right-0 h-[1px] bg-border/50" />}
                 
-                <div className="w-12 h-12 rounded-full bg-background border border-border flex items-center justify-center text-small font-serif text-primary relative z-10">
+                <div className="w-[48px] h-[48px] rounded-full bg-background border border-border flex items-center justify-center text-small font-serif text-primary relative z-10">
                   {step.num}
                 </div>
                 <h4 className="text-h5 font-serif mt-2">{step.title}</h4>

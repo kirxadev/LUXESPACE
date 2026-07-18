@@ -74,11 +74,11 @@ export default function Footer() {
                 <a href="mailto:hello@luxespace.com" className="hover:text-heading transition-colors">hello@luxespace.com</a>
               </li>
               <li>
-                <a href="tel:+12125550198" className="hover:text-heading transition-colors">+1 (212) 555-0198</a>
+                <a href="tel:+10000000000" className="hover:text-heading transition-colors">+1 (000) 000-0000</a>
               </li>
               <li className="leading-relaxed">
-                125 Luxury Avenue, Suite 400<br />
-                New York, NY 10022
+                123 Dummy Street, Suite 000<br />
+                Placeholder City, ST 00000
               </li>
               <li className="mt-2 opacity-70">
                 Mon - Fri: 9:00 AM - 6:00 PM

@@ -183,7 +183,7 @@ export default function Hero() {
 
           <p
             ref={ctaRef}
-            className="text-white/90 md:text-[#14352F]/80 text-[20px] leading-relaxed font-sans font-light mt-[90px] opacity-0"
+            className="hidden md:block text-white/90 md:text-[#14352F]/80 text-[20px] leading-relaxed font-sans font-light mt-[90px] opacity-0"
           >
             At LuxeSpace Interiors, we create exquisite interiors that blend
             sophistication with comfort, tailored to reflect your unique

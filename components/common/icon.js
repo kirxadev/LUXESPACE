@@ -11,10 +11,10 @@ const Icon = React.forwardRef(({
   if (!LucideIcon) return null;
 
   const sizeClasses = {
-    sm: "w-4 h-4",
-    default: "w-6 h-6",
-    md: "w-8 h-8",
-    lg: "w-12 h-12",
+    sm: "w-[16px] h-[16px]",
+    default: "w-[24px] h-[24px]",
+    md: "w-[32px] h-[32px]",
+    lg: "w-[48px] h-[48px]",
   };
 
   const hoverClasses = {

@@ -268,7 +268,7 @@ export default function ProjectDetailsPage({ params }) {
              <div className="hidden md:block absolute top-[23px] left-0 right-0 h-[1px] bg-border/50 z-0" />
              {PROJECT_DATA.timeline.map((item, i) => (
                 <div key={i} className="flex flex-col items-center text-center gap-4 relative z-10 mb-8 md:mb-0 gsap-reveal">
-                  <div className="w-12 h-12 rounded-full bg-background border border-primary text-primary flex items-center justify-center font-serif text-small">
+                  <div className="w-[48px] h-[48px] rounded-full bg-background border border-primary text-primary flex items-center justify-center font-serif text-small">
                     0{i+1}
                   </div>
                   <div>

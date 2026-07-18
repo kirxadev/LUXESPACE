@@ -28,7 +28,7 @@ export default function Navbar() {
   const mobileTl = useRef(null);
 
   // Only use light (white) text on pages that have a dark hero image behind the navbar
-  const darkHeroPages = ["/about", "/services", "/portfolio", "/contact"];
+  const darkHeroPages = ["/about", "/services", "/portfolio", "/contact", "/projects"];
   const hasDarkHero = darkHeroPages.includes(pathname);
   const useLightText = hasDarkHero && !isScrolled;
 

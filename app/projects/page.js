@@ -83,14 +83,24 @@ export default function ProjectsIndexPage() {
   }, { scope: containerRef });
 
   return (
-    <main ref={containerRef} className="bg-background min-h-screen pt-32 pb-section">
+    <main ref={containerRef} className="bg-background min-h-screen pb-section">
       
-      {/* Header */}
-      <section className="px-container mb-24 text-center">
-        <div className="max-w-4xl mx-auto gsap-reveal">
-          <span className="text-caption text-primary uppercase tracking-widest mb-4 block">Case Studies</span>
-          <h1 className="text-display-md font-serif mb-6">Our Projects</h1>
-          <p className="text-body-lg text-muted-foreground">
+      {/* 1. Hero Banner */}
+      <section className="relative h-[80svh] w-full overflow-hidden flex items-center justify-center mb-24">
+        <div className="absolute inset-0 w-full h-[120%] -top-[10%] will-change-transform z-0">
+          <LuxuryImage 
+            src="/images/portfolio-res-1.png" 
+            alt="Our Projects"
+            className="w-full h-full object-cover gsap-parallax absolute inset-0"
+            wrapperClassName="w-full h-full"
+            overlay={true}
+            priority
+          />
+        </div>
+        <div className="relative z-10 text-center px-container mt-16 max-w-4xl mx-auto">
+          <span className="text-caption text-white/80 uppercase tracking-widest mb-4 block gsap-reveal">Case Studies</span>
+          <h1 className="text-display-lg text-white font-serif mb-6 gsap-reveal">Our Projects</h1>
+          <p className="text-body-lg text-white/90 gsap-reveal">
             Explore our most prestigious interior and architectural commissions from around the world.
           </p>
         </div>

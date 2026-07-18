@@ -54,7 +54,7 @@ function ServiceCard({ icon, title, description, className }) {
   return (
     <Card className={cn("bg-surface border-transparent transition-all duration-300 hover:shadow-floating hover:-translate-y-1", className)}>
       <CardHeader>
-        <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-full bg-secondary text-primary">
+        <div className="mb-4 inline-flex h-[48px] w-[48px] items-center justify-center rounded-full bg-secondary text-primary">
           <Icon icon={icon} size="default" />
         </div>
         <CardTitle>{title}</CardTitle>

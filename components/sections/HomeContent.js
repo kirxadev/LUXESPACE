@@ -196,7 +196,7 @@ export default function HomeContent() {
               { icon: Hammer, title: "Premium Craftsmanship", desc: "Flawless execution in every detail." }
             ].map((value, i) => (
               <div key={i} className="flex flex-col items-center text-center gap-4 gsap-phil-item">
-                <div className="w-12 h-12 rounded-full bg-surface flex items-center justify-center text-primary mb-2">
+                <div className="w-[48px] h-[48px] rounded-full bg-surface flex items-center justify-center text-primary mb-2">
                   <Icon icon={value.icon} size="md" />
                 </div>
                 <h3 className="text-h6 font-serif text-heading">{value.title}</h3>
@@ -324,7 +324,7 @@ export default function HomeContent() {
             ].map((service, i) => (
               <div key={i} className="group flex flex-col items-center text-center p-10 bg-background border border-border/30 rounded-2xl shadow-sm hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.05)] hover:border-primary/20 transition-all duration-500 ease-out hover:-translate-y-2 gsap-reveal">
                 
-                <div className="w-14 h-14 rounded-full bg-surface/60 flex items-center justify-center text-primary mb-6 transition-transform duration-500 group-hover:scale-110">
+                <div className="w-[56px] h-[56px] rounded-full bg-surface/60 flex items-center justify-center text-primary mb-6 transition-transform duration-500 group-hover:scale-110">
                   <Icon icon={service.icon} size="md" />
                 </div>
                 
@@ -366,7 +366,7 @@ export default function HomeContent() {
               <div key={`t-${i}`} className="testimonial-card w-[320px] sm:w-[400px] md:w-[450px] shrink-0 mx-4 p-8 md:p-10 bg-background border border-border/30 rounded-2xl shadow-sm hover:shadow-xl hover:border-primary/20 hover:-translate-y-2 transition-all duration-500 ease-out group cursor-default flex flex-col">
                 
                 <div className="flex items-center gap-4 mb-6">
-                  <div className="w-12 h-12 rounded-full bg-surface overflow-hidden shrink-0 border border-border/50">
+                  <div className="w-[48px] h-[48px] rounded-full bg-surface overflow-hidden shrink-0 border border-border/50">
                      <div className="w-full h-full bg-border/30"></div>
                   </div>
                   <div>
